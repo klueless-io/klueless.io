@@ -139,7 +139,8 @@ disableKinds        = ["taxonomy", "taxonomyTerm"]
   [params.section3]
   title                     = "Techology Agnostic"
   subtitle                  = "With DDD modeling and 'Golden Templates', you can pick your frontend/backend language"
-  image                     = "illustrations/mockups/app-mockup.png"
+  # image                     = "images/mockups/mockup-generator.png"
+  image                     = "mockups/mockup-generator.png"
   buttonText                = "Get started"
   buttonLink                = "#"
 
@@ -252,27 +253,31 @@ disableKinds        = ["taxonomy", "taxonomyTerm"]
     text                    = "Video blog"
     link                    = "/"
 
-  [[params.navbar]]
-  title                     = "Features"
-  url                       = "/"
+  # [[params.navbar]]
+  # title                     = "Features"
+  # url                       = "/"
 
   # [[params.navbar]]
   # title                     = "Pricing"
   # url                       = "/"
 
   [[params.navbar]]
-  title = "Dropdown"
+  title = "Shortcuts"
 
     [[params.navbar.sublinks]]
-    title                   = "Dropdown item"
+    title                   = "Generate"
     url                     = "/"
 
     [[params.navbar.sublinks]]
-    title                   = "Dropdown item"
+    title                   = "DDD Models"
     url                     = "/"
 
     [[params.navbar.sublinks]]
-    title                   = "Dropdown item"
+    title                   = "Golden Templates"
+    url                     = "/"
+
+    [[params.navbar.sublinks]]
+    title                   = "Profiles"
     url                     = "/"
 
   [[params.navbar]]
