@@ -121,21 +121,19 @@ disableKinds        = ["taxonomy", "taxonomyTerm"]
     text                    = "Why use simple boiler plates when you can get fully configured applications up and run in minutes with database, ci/unit testing and git versioning"
     icon                    = "laptop-globe"
 
-      #  ,  of As the founder or CTO of a startup, you are KlueLess.IO is a software factory that uses Domain Driven Design to build Headless and Serverless applications. <br/> <br/> Software Architects & Lead Developers can develop pilot Full-Stack applications in hours with full unit test coverage up and ruuning.
-  # Flexibility through Microservices, enterprise quality through BDD/CI, stack agonostic through Golden Templates. <br /></br />
-  # subtitle                  = "KlueLess.IO is a software factory that uses Domain Driven Design to build Headless and Serverless applications. <br/> <br/> Software Architects & Lead Developers can develop pilot Full-Stack applications in hours with full unit test coverage up and ruuning."
-# using Domain Driven Design
-# Use your 'Golden Templates' 
-#  static application generator 
-
     [[params.section2.features]]
     title                   = "Build a Micro Service / App in a day"
     text                    = "Using domain driven design principals, you build n-tier applications siloed into micro-services and micro-apps with flexibilty to create headless, serverless or fullstack applications"
     icon                    = "doc-sync"
                             
     [[params.section2.features]]
-    title                   = "Nomad system"
-    text                    = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    title                   = "Full Coverage Testing"
+    text                    = "Unit and Integration tests are built to for persistence, business and service layers. Test Data is auto created and configurable intergration tests are built"
+    icon                    = "mobile-feed"
+                            
+    [[params.section2.features]]
+    title                   = "Golden Templates"
+    text                    = "The golden templates allow you to be stack agnostic. Create your own opnionated componetns in your language. e.g. C#, Javascript, GO, Ruby & Python or client side with with Flutter, Vue, React, Angular etc."
     icon                    = "mobile-feed"
                             
   [params.section3]
@@ -147,24 +145,24 @@ disableKinds        = ["taxonomy", "taxonomyTerm"]
 
   [params.section4]
   title                     = "Our Clients love us!"
-  subtitle                  = "Lorem ipsum sit dolor amet is a dummy text used by typography industry"
+  subtitle                  = "The Klue is Less equals More"
 
     [[params.section4.clients]]
-    name                    = "Irma Walters"
-    quote                   = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-    job                     = "Accountant"
-    img                     = 1.0
-
-    [[params.section4.clients]]
-    name                    = "John Bradley"
-    quote                   = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-    job                     = "Financial Analyst"
+    name                    = "David Cruwys"
+    quote                   = "I've used klueless.io to build out spiders, dashboards and AI segmentation engine for the JobGetter.com Jobs AI platform."
+    job                     = "Software Architect"
     img                     = 2.0
 
     [[params.section4.clients]]
-    name                    = "Gary Blackman"
-    quote                   = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-    job                     = "HR Manager"
+    name                    = "Jin Qiu"
+    quote                   = "Helped to build a seven microservice apps in 20 hours at the Freelancer.com Hackerthon for StartCon 2018"
+    job                     = "Rails Developer"
+    img                     = 1.0
+
+    [[params.section4.clients]]
+    name                    = "AppyDave"
+    quote                   = "Built a distributed CMS in a day which replaced 9 websites on Shopify and WP engine cutting yearly cost from AUD $3500 to $0"
+    job                     = "Software Architect"
     img                     = 3.0
 
   [params.footer]
@@ -177,7 +175,7 @@ disableKinds        = ["taxonomy", "taxonomyTerm"]
       link              = "https://www.facebook.com/klueless"
 
     [[params.footer.socialmedia]]
-      active            = true
+      active            = false
       icon              = "twitter"
       link              = "https://www.twitter.com/liifetourist"
 
