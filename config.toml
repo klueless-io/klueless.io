@@ -140,7 +140,7 @@ disableKinds        = ["taxonomy", "taxonomyTerm"]
   title                     = "Techology Agnostic"
   subtitle                  = "With DDD modeling and 'Golden Templates', you can pick your frontend/backend language"
   # image                     = "images/mockups/mockup-generator.png"
-  image                     = "mockups/mockup-generator.png"
+  image                     = "mockups/mockup-generator.jpg"
   buttonText                = "Get started"
   buttonLink                = "#"
 
