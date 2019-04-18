@@ -18,107 +18,119 @@ disableKinds        = ["taxonomy", "taxonomyTerm"]
   sizes = [400.0, 600.0]
 
   [params.hero]
-  title                     = "Klueless.io <br/> Software Factory"
-  subtitle                  = "KlueLess.IO is a software factory that uses Domain Driven Design to build Headless and Serverless applications. <br/> <br/> Software Architects & Lead Developers can develop pilot Full-Stack applications in hours with full unit test coverage up and ruuning."
+  title                     = "KlueLess.io <br/> Static App Factory"
+  subtitle                  = "How does a startup build a $million app on a tiny budget in a weekend. <br /> <br />How can an enterprise harness agile / startup methodolies while maintaining quality.<br /> "
   buttontext                = "Get started"
-  buttonlink                = "#"
+  buttonlink                = "/get-started"
   image                     = "illustrations/worker.svg"
 
-  clientlogos = ["systek", "tribe", "kromo", "infinite", "gutwork"]
+  # clientlogos = ["systek", "tribe", "kromo", "infinite", "gutwork"]
 
   # Need a menu construction structure
   [params.sidebar]
   logo                      = "fresh-square"
 
     [[params.sidebar.sections]]
-    title                   = "User"
-    icon                    = "user"
+    title                   = "App Generator"
+    icon                    = "cogs"
 
       [[params.sidebar.sections.links]]
-      text                  = "Profile"
-      url                   = "/"
-
-      [[params.sidebar.sections.links]]
-      text                  = "Account"
-      url                   = "/"
-
-      [[params.sidebar.sections.links]]
-      text                  = "Settings"
-      url                   = "/"
+      text                  = "Generate"
+      url                   = "/generate"
 
     [[params.sidebar.sections]]
-    title                   = "Messages"
-    icon                    = "envelope"
-
-      [[params.sidebar.sections.links]]
-      text                  = "Inbox"
-      url                   = "/"
-
-      [[params.sidebar.sections.links]]
-      text                  = "Compose"
-      url                   = "/"
-
-    [[params.sidebar.sections]]
-    title                   = "Images"
-    icon                    = "image"
-
-      [[params.sidebar.sections.links]]
-      text                  = "Library"
-      url                   = "/"
-
-      [[params.sidebar.sections.links]]
-      text                  = "Upload"
-      url                   = "/"
-
-    [[params.sidebar.sections]]
-    title                   = "Settings"
+    title                   = "Configuration"
     icon                    = "cog"
 
       [[params.sidebar.sections.links]]
-      text                  = "User settings"
-      url                   = "/"
+      text                  = "DDD Models"
+      url                   = "/model"
 
       [[params.sidebar.sections.links]]
-      text                  = "App settings"
-      url                   = "/"
+      text                  = "Golden Templates"
+      url                   = "/template"
+
+      [[params.sidebar.sections.links]]
+      text                  = "Profiles"
+      url                   = "/profile"
+
+    # [[params.sidebar.sections]]
+    # title                   = "Configurations"
+    # icon                    = "envelope"
+
+    #   [[params.sidebar.sections.links]]
+    #   text                  = "Inbox"
+    #   url                   = "/"
+
+    #   [[params.sidebar.sections.links]]
+    #   text                  = "Compose"
+    #   url                   = "/"
+
+    # [[params.sidebar.sections]]
+    # title                   = "Images"
+    # icon                    = "image"
+
+    #   [[params.sidebar.sections.links]]
+    #   text                  = "Library"
+    #   url                   = "/"
+
+    #   [[params.sidebar.sections.links]]
+    #   text                  = "Upload"
+    #   url                   = "/"
+
+
+    #   [[params.sidebar.sections.links]]
+    #   text                  = "User settings"
+    #   url                   = "/"
+
+    #   [[params.sidebar.sections.links]]
+    #   text                  = "App settings"
+    #   url                   = "/"
 
   [params.section1]
   title                     = "Great power comes"
   subtitle                  = "with great responsibility"
 
     [[params.section1.tiles]]
-    title                   = "App builder"
+    title                   = "CTO"
     icon                    = "mouse-globe"
-    text                    = "This is some explanatory text that is on two rows"
-    url                     = "/"
-    buttonText              = "Free trial"
+    text                    = "Your App must go to market in 30 days and maintain quality and scalability"
+    url                     = "/cto"
+    buttonText              = "Learn More"
 
     [[params.section1.tiles]]
-    title                   = "Cloud integration"
+    title                   = "Software Architect"
     icon                    = "laptop-cloud"
-    text                    = "This is some explanatory text that is on two rows"
-    url                     = "/"
-    buttonText              = "Get started"
+    text                    = "Design, model and generate Micro Services / Micro Apps with flexible code stacks"
+    url                     = "/architect"
+    buttonText              = "Learn More"
 
     [[params.section1.tiles]]
-    title                   = "Add-ons & plugins"
+    title                   = "Fullstack Development"
     icon                    = "plug-cloud"
-    text                    = "This is some explanatory text that is on two rows"
-    url                     = "/"
+    text                    = "Build Micro Services / Micro Apps and link and connect in language of choice"
+    url                     = "/fullstack"
     buttonText              = "Get started"
 
   [params.section2]
-  title                     = "You're here because you want the best"
-  subtitle                  = "And we know it"
+  title                     = "You're looking to build enterprise applications"
+  subtitle                  = "Quality / Testibility / Flexibility"
 
     [[params.section2.features]]
-    title                   = "Powerful and unified interface"
-    text                    = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    title                   = "Starter Applications on Steriods"
+    text                    = "Why use simple boiler plates when you can get fully configured applications up and run in minutes with database, ci/unit testing and git versioning"
     icon                    = "laptop-globe"
 
+      #  ,  of As the founder or CTO of a startup, you are KlueLess.IO is a software factory that uses Domain Driven Design to build Headless and Serverless applications. <br/> <br/> Software Architects & Lead Developers can develop pilot Full-Stack applications in hours with full unit test coverage up and ruuning.
+  # Flexibility through Microservices, enterprise quality through BDD/CI, stack agonostic through Golden Templates. <br /></br />
+  # subtitle                  = "KlueLess.IO is a software factory that uses Domain Driven Design to build Headless and Serverless applications. <br/> <br/> Software Architects & Lead Developers can develop pilot Full-Stack applications in hours with full unit test coverage up and ruuning."
+# using Domain Driven Design
+# Use your 'Golden Templates' 
+#  static application generator 
+
     [[params.section2.features]]
-    title                   = "Cross-device synchronisation"
-    text                    = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    title                   = "Build a Micro Service / App in a day"
+    text                    = "Using domain driven design principals, you build n-tier applications siloed into micro-services and micro-apps with flexibilty to create headless, serverless or fullstack applications"
     icon                    = "doc-sync"
                             
     [[params.section2.features]]
@@ -127,8 +139,8 @@ disableKinds        = ["taxonomy", "taxonomyTerm"]
     icon                    = "mobile-feed"
                             
   [params.section3]
-  title                     = "One platform"
-  subtitle                  = "To rule them all"
+  title                     = "Techology Agnostic"
+  subtitle                  = "With DDD modeling and 'Golden Templates', you can pick your frontend/backend language"
   image                     = "illustrations/mockups/app-mockup.png"
   buttonText                = "Get started"
   buttonLink                = "#"
@@ -246,9 +258,9 @@ disableKinds        = ["taxonomy", "taxonomyTerm"]
   title                     = "Features"
   url                       = "/"
 
-  [[params.navbar]]
-  title                     = "Pricing"
-  url                       = "/"
+  # [[params.navbar]]
+  # title                     = "Pricing"
+  # url                       = "/"
 
   [[params.navbar]]
   title = "Dropdown"
